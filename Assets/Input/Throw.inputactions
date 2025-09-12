@@ -1,0 +1,34 @@
+{
+    "name": "Throw",
+    "maps": [
+        {
+            "name": "ThrowObject",
+            "id": "fd83ceeb-3e3d-4873-97e2-6f7366546844",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "25885c9c-50ae-486c-94ca-20fd1643f509",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1249b6fb-cda4-4976-aedf-d7d620ae8461",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
