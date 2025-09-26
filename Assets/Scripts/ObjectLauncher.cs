@@ -59,11 +59,11 @@ public class ObjectLauncher : MonoBehaviour
 
     private void AddThrowForce(GameObject throwableObject, Rigidbody throwBody)
     {
-        Rigidbody diceRigidBody = throwableObject.GetComponent<Rigidbody>();
+        Rigidbody objectRigidBody = throwableObject.GetComponent<Rigidbody>();
 
-        if (diceRigidBody != null)
+        if (objectRigidBody != null)
         {
-            diceRigidBody.isKinematic = false;
+            objectRigidBody.isKinematic = false;
             throwBody = throwableObject.GetComponentInChildren<Rigidbody>();
         }
 
